@@ -19,3 +19,7 @@
 | Información de pedidos (historial, estados, montos) | Datos | Si se accede a este activo queda la exposición de hábitos de compra y datos de clientes. Si se modifica se  puede crear fraude, pedidos falsos o cancelados indebidamente. Si queda indisponible exite la imposibilidad de procesar, rastrear o entregar compras. |
 | Información de pago y facturación | Información sensible | Si se accede a este activo se puede crear fraude financiero, incumplimiento de PCI-DSS, multas y demandas. Si se modifica puede existir cobros incorrectos, facturación fraudulenta.|
 | Microservicio de usuarios | Software / Servicio | Si se accede a este activo puede existir un abuso de la API para extraer o alterar cuentas.|
+| Microservicio de productos | Software / Servicio | Puede existir una exposición de lógica interna y endpoints administrativos ademas de una manipulación del catálogo o del inventario. |
+| Microservicio de pedidos | Software / Servicio | Puede existir una consulta indebida de pedidos ajeno, alteración de montos, estados o cantidades.  |
+| API Gateway (punto de entrada común) | Servicio / Software | Control del tráfico y bypass de autenticación hacia todos los servicios. |
+| Bases de datos (usuarios, productos, pedidos) | Infraestructura / Datos |Puede existir una fuga masiva de información de todos los dominios. |
