@@ -7,7 +7,7 @@
 **Integrantes:**
 1. Xavier Altamirano
 2. Alisson Ayo
-3. 
+3. Yuliana Valencia
 
 **Fecha:** 29-09-2026
 
