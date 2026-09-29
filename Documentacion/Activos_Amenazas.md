@@ -6,7 +6,7 @@
 
 **Integrantes:**
 1. Xavier Altamirano
-2. 
+2. Alisson Ayo
 3. 
 
 **Fecha:** 29-09-2026
